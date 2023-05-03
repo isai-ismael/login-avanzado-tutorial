@@ -1,0 +1,85 @@
+.cabeza {
+  /*background-image: url("../img/1.jpg");*/
+  /*width: 100%;*/
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+label {
+  min-width: 80px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(218, 216, 216);
+  font-family: 'Exo';
+}
+.container {
+  width: 500px;
+  padding: 20px;
+  background: white;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.titulo {
+  text-align: center;
+  border: solid rgb(176, 176, 209) 1px;
+  border-style: dashed;
+  padding: 15px;
+  color: rgb(95, 93, 93);
+}
+.padre {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  color: rgb(128, 128, 128);
+}
+.nombre,
+.apellido,
+.usuario,
+.clave {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  padding: 10px;
+}
+input:focus {
+  outline: solid rgb(158, 158, 158) 2px;
+}
+.cuenta {
+  display: flex;
+  flex-direction: column;
+}
+
+.boton {
+  width: 100%;
+  background: rgb(0, 132, 255);
+  border: none;
+  color: white;
+  padding: 15px 0;
+  font-size: 18px;
+}
+.cuenta a{
+  padding: 10px;
+  color: blue;
+  font-weight: bold;
+}
+
+.alerta{
+  text-align: center;
+  color: red;
+}
+
+
+.success{
+  text-align: center;
+  color: rgb(31, 156, 0);
+}
